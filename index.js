@@ -14,7 +14,7 @@ import CodePush from "react-native-code-push";
 import NetInfo from "@react-native-community/netinfo";
 import SplashScreen from "react-native-splash-screen";
 
-class RNBirdyDecIndex extends Component {
+class RNCurlingMayIndex extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -144,4 +144,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default RNBirdyDecIndex;
+export default RNCurlingMayIndex;
