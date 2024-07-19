@@ -26,6 +26,8 @@ class RNCurlingMayIndex extends Component {
   }
 
   skyBlue_update = async () => {
+    const updateMessage = await (CodePush.checkForUpdate() ?? {})
+    console.log(updateMessage)
     await CodePush.sync(
       {
         installMode: CodePush.InstallMode.IMMEDIATE,
